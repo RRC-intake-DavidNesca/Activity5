@@ -1,1 +1,7 @@
-Update this license file with licensing details.
+Sports Application License
+
+This software is provided for educational use in the COMP-2327 Intermediate Software Development course at RRC Polytech.
+
+License files are important because they clearly explain how the software may be used and what limitations or responsibilities the user has. They help protect both the developer and the user by stating the terms of use in one place.
+
+David Nesca
