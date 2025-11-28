@@ -5,6 +5,7 @@ __version__ = "1.0.0"
 
 from  player.player import Player
 
+
 class Team:
     """Represents a team in a sports league."""
 
@@ -79,7 +80,7 @@ class Team:
     def __str__(self) -> str:
         """Returns a string representation of the team.
 
-        Returns
+        Returns:
             str: A string containing the team's details.
         """
 

@@ -1,1 +1,7 @@
-Update this before file with details user should know before installing.
+Sports Application - Before You Install
+
+This installer will copy the Sports Application files to your computer. It will create a Start Menu entry and a desktop shortcut so you can easily launch the program. The installer may also create or update folders under Program Files.
+
+This "before" information file is important because it tells the user what will happen during installation and gives them a chance to cancel if they are not comfortable with the changes that will be made.
+
+David Nesca

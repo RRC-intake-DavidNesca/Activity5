@@ -1,7 +1,8 @@
-"""This module defines the League class."""
+"""This module defines the Player class."""
 
 __author__ = "ACE Faculty"
 __version__ = "1.0.0"
+
 
 class Player:
     """Represents a player on a sports team."""
@@ -14,20 +15,20 @@ class Player:
             age (int): The age of the player.
             position (str): The position of the player on the team.
 
-        Raises
+        Raises:
             ValueError: Raised when the name is not a string, age is not
                 an integer, or position is not a string.
         """
 
         if not isinstance(name, str):
             raise ValueError("Name must be a string")
-        
+
         if not isinstance(age, int):
             raise ValueError("Age must be an integer")
-        
+
         if not isinstance(position, str):
             raise ValueError("Position must be a string")
-        
+
         self.__name = name
         self.__age = age
         self.__position = position
@@ -65,7 +66,7 @@ class Player:
     def __str__(self) -> str:
         """Returns a string representation of the player.
 
-        Returns
+        Returns:
             str: A string containing the player's details.
         """
 

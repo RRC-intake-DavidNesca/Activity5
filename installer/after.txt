@@ -1,1 +1,9 @@
-Update this after file with details user should know after installing.
+Sports Application - Installation Complete
+
+The Sports Application has been installed successfully.
+
+You can launch the program using the desktop shortcut or through the Start Menu entry that the installer created.
+
+This "after" information file is important because it confirms that installation finished and tells the user how to start the software so they are not left guessing what to do next.
+
+David Nesca
