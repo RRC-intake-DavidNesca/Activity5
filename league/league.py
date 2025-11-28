@@ -5,6 +5,7 @@ __version__ = "1.0.0"
 
 from team.team import Team
 
+
 class League:
     """Represents a league in a sports organization."""
 
@@ -26,7 +27,11 @@ class League:
 
     @property
     def name(self) -> str:
-        """Gets the name of the league."""
+        """Gets the name of the league.
+
+        Returns:
+            str: The name of the league instance.
+        """
 
         return self.__name
 
@@ -47,7 +52,8 @@ class League:
             team (Team): The team to be added to the league.
         
         Raises:
-            ValueError: Raised when the team is not an instance of Team.
+            ValueError: Raised when the team is not an instance of
+                Team.
         """
 
         if not isinstance(team, Team):
@@ -58,7 +64,7 @@ class League:
     def __str__(self) -> str:
         """Returns a string representation of the league.
 
-        Returns
+        Returns:
             str: A string containing the league's details.
         """
 
